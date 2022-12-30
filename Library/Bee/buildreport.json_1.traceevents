@@ -1,0 +1,563 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1665457602222682, "dur": 2046644, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665457602222921, "dur": 4757, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665457602227681, "dur": 32277, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665457602259960, "dur": 827383, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665457603087346, "dur": 1169890, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665457604257237, "dur": 12088, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665457604269792, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1665457602870014, "dur": 201487, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665457602870949, "dur": 36418, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665457603055317, "dur": 4574, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665457603059893, "dur": 11601, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665457603060616, "dur": 10097, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665457603077412, "dur": 1578, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665457603076688, "dur": 2327, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665457604270041, "dur": 380, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1665457603117223, "dur":1610, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457603118838, "dur":110, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1665457603118958, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1665457603118973, "dur":425, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1665457603119420, "dur":626, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457603120046, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231484, "dur":243, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231727, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231736, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231738, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231743, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231744, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231749, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231750, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231770, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231771, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231775, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231776, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231793, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231794, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231799, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231799, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231824, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231825, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231829, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231830, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231834, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231835, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231840, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231841, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231845, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231858, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604231871, "dur":1857, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1665457603119427, "dur":628, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603120057, "dur":3192, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603123257, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665457603123281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603124815, "dur":582, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665457603125400, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665457603125455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603125715, "dur":5227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665457603130944, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1665457603130971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603131558, "dur":39412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1665457603170997, "dur":15360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1665457603186360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603186366, "dur":63643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1665457603250023, "dur":18568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603268597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603268933, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603270266, "dur":34932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603305202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603305208, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603306517, "dur":93011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603399534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603399542, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603401442, "dur":28360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603429808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603429816, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603431433, "dur":32300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603463737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603463743, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603465301, "dur":49472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603514779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603514788, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603516611, "dur":52612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603569229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603569237, "dur":2319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603571603, "dur":28360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603599970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603599979, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603601340, "dur":36486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603637832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603637841, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603639262, "dur":86963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603726229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603726259, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603728336, "dur":102055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603830395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457603830402, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457603832452, "dur":215178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457604047634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665457604047640, "dur":2788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665457604050464, "dur":181034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457603119455, "dur":604, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457603120060, "dur":3225, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457603123286, "dur":62370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1665457603185661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457603185670, "dur":64131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1665457603249816, "dur":18966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603268785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457603268901, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603270261, "dur":36131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603306395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457603306401, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603307764, "dur":22897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603330666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457603330673, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603332219, "dur":64052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603396277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457603396291, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603397321, "dur":95654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603492981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457603492989, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603494859, "dur":57338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603552203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457603552212, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603553424, "dur":29972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603583401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457603583408, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603585281, "dur":29319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603614605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457603614613, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603616404, "dur":27245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603643656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457603643665, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603645479, "dur":57202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603702687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457603702695, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603704053, "dur":953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603705011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457603705019, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603706522, "dur":21270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603727797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457603727805, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457603729891, "dur":273033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457604002929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457604002937, "dur":13497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665457604016477, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1665457604016520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457604016526, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1665457604017933, "dur":9949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1665457604027887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665457604027897, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1665457604028922, "dur":202565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665457603120004, "dur":269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665457603120273, "dur":2984, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665457603123257, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1665457603123327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665457603125888, "dur":207463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1665457603333372, "dur":77266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665457603410674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665457603410683, "dur":2057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665457603412786, "dur":51677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665457603464467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665457603464473, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665457603466405, "dur":30982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665457603497391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665457603497424, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665457603500020, "dur":44478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665457603544504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665457603544512, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665457603548143, "dur":62669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665457603610816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665457603610823, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665457603612318, "dur":39526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665457603651849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665457603651857, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665457603653553, "dur":227058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665457603880617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665457603880625, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665457603881919, "dur":135008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665457604016930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665457604016935, "dur":2641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665457604019615, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1665457604019784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665457604019788, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1665457604022157, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1665457604022198, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665457604022202, "dur":6000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1665457604028244, "dur":203239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457603119477, "dur":588, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457603120066, "dur":3190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457603123280, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1665457603123335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457603128984, "dur":50132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1665457603179136, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1665457603179200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457603179206, "dur":173461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1665457603352688, "dur":141248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457603493942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457603493950, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457603496434, "dur":34527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457603530965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457603530971, "dur":2846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457603533855, "dur":39573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457603573433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457603573441, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457603575345, "dur":26139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457603601488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457603601495, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457603603089, "dur":30919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457603634013, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457603634021, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457603635450, "dur":93604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457603729057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457603729065, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457603731072, "dur":95579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457603826657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457603826665, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457603828583, "dur":36423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457603865012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457603865021, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457603866490, "dur":143072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457604009565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457604009572, "dur":9783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665457604019408, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1665457604019455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457604019461, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1665457604020799, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665457604020835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457604020838, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665457604022086, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665457604022126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457604022130, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665457604023581, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1665457604023624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665457604023629, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1665457604024734, "dur":206756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603119565, "dur":505, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603120070, "dur":3184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603123258, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1665457603123330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603126152, "dur":46207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1665457603172377, "dur":75773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1665457603248155, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603248165, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1665457603249585, "dur":46097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603295687, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603295696, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603296888, "dur":23772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603320666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603320674, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603321788, "dur":22145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603343938, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603343947, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603345773, "dur":47990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603393768, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603393776, "dur":3607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603397438, "dur":44536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603441981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603442005, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603444502, "dur":23174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603467682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603467689, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603468839, "dur":28423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603497268, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603497277, "dur":2309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603499631, "dur":31063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603530700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603530708, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603533324, "dur":26462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603559793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603559801, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603561522, "dur":36370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603597897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603597905, "dur":3333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603601284, "dur":47811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603649101, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603649110, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603650458, "dur":74945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603725408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603725416, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603727166, "dur":1084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603728253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603728259, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603730556, "dur":60146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603790709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603790717, "dur":2558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603793630, "dur":35267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603828902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457603828909, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457603830200, "dur":170980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457604001185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457604001192, "dur":5054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665457604006290, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1665457604006484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457604006931, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1665457604008885, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1665457604008925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457604008967, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1665457604010252, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665457604010296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457604010301, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665457604011511, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665457604011549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457604011554, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665457604012606, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665457604012669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457604012674, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665457604014156, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665457604014193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457604014198, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665457604016497, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1665457604016620, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457604016624, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1665457604018062, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665457604018108, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457604018113, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665457604020281, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1665457604020323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457604020354, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1665457604021694, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1665457604021737, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457604021741, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1665457604022829, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665457604022871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457604022876, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665457604024207, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1665457604024331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665457604024335, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1665457604025378, "dur":206108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665457603119582, "dur":520, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665457603120102, "dur":3151, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665457603123258, "dur":68742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1665457603192009, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665457603192428, "dur":56887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1665457603249330, "dur":409359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1665457603658700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665457603658708, "dur":2378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1665457603661106, "dur":49170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665457603710282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665457603710290, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665457603711702, "dur":836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665457603712542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665457603712550, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665457603713648, "dur":34675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665457603748334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665457603748516, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665457603751759, "dur":81986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665457603833755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665457603833762, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665457603835918, "dur":196688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665457604032612, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665457604032619, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665457604035175, "dur":196310, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603119665, "dur":490, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603120155, "dur":3125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603123280, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1665457603123439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603132626, "dur":39637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1665457603172283, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1665457603172329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603172393, "dur":77155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1665457603249563, "dur":31844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron.exe" }}
+,{ "pid":12345, "tid":7, "ts":1665457603281413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603281419, "dur":2196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron.exe" }}
+,{ "pid":12345, "tid":7, "ts":1665457603283656, "dur":22636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603306305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603306313, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603307712, "dur":22074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603329792, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603329801, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603331244, "dur":25790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603357071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603357079, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603358209, "dur":136441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603494653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603494659, "dur":3107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603497811, "dur":67090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603564908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603564916, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603566513, "dur":37253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603603770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603603804, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603606083, "dur":48011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603654098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603654106, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603655758, "dur":26390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603682154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603682162, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603683795, "dur":41645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603725444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603725450, "dur":3376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603728875, "dur":89441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603818322, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603818330, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603819803, "dur":100422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603920230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457603920239, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457603921624, "dur":237457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457604159085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665457604159091, "dur":3982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665457604163100, "dur":68388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665457603119684, "dur":492, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665457603120176, "dur":3108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665457603123285, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1665457603123333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665457603128499, "dur":50776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1665457603179290, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1665457603179313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665457603179317, "dur":69340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1665457603248674, "dur":707635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665457603956315, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665457603956439, "dur":8053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665457603964514, "dur":154923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665457604119441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665457604119446, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665457604120524, "dur":110960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665457603119759, "dur":422, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665457603120181, "dur":3105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665457603123286, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1665457603123328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665457603125871, "dur":212500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1665457603338392, "dur":23381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603362076, "dur":240, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665457603362323, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603364486, "dur":29974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603394464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665457603394470, "dur":2602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603397124, "dur":66364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603463494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665457603463503, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603465166, "dur":28980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603494150, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665457603494186, "dur":4115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603498343, "dur":39525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603537872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665457603537878, "dur":3227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603541155, "dur":40988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603582148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665457603582157, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603583826, "dur":25256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603609088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665457603609097, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603610483, "dur":133001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603743488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665457603743495, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603745565, "dur":167244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603912816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665457603912824, "dur":5196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603918069, "dur":50416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603968491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665457603968502, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457603969897, "dur":100947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457604070849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1665457604070855, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1665457604071920, "dur":159569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665457603119830, "dur":355, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665457603120185, "dur":3071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665457603123280, "dur":62887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1665457603186171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665457603186177, "dur":63375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1665457603249566, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1665457603249590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665457603249966, "dur":200880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1665457603450865, "dur":25783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603476655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665457603476663, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603478399, "dur":25096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603503501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665457603503509, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603505022, "dur":26690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603531717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665457603531723, "dur":5710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603537483, "dur":31972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603569458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665457603569464, "dur":3090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603572598, "dur":122158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603694763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665457603694771, "dur":3473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603698290, "dur":1258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603699581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665457603699589, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603701079, "dur":58126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603759211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665457603759219, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603760898, "dur":80213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603841116, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665457603841125, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603842909, "dur":42714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603885630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665457603885638, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457603887605, "dur":158498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457604046107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1665457604046113, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1665457604047412, "dur":184079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665457603119866, "dur":320, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665457603120186, "dur":3069, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665457603123281, "dur":54701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1665457603177987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665457603177995, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1665457603179149, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1665457603179188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665457603179193, "dur":70086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1665457603249294, "dur":969260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665457604218576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1665457604218581, "dur":12827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1665457604231421, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":11, "ts":1665457604231423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603119981, "dur":239, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603120220, "dur":3063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603123284, "dur":54977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1665457603178265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603178272, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1665457603179738, "dur":72560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603252304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603252748, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603254708, "dur":30763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603285478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603285606, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603287170, "dur":29290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603316466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603316475, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603318020, "dur":22717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603340742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603340750, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603341969, "dur":37607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603379583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603379591, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603381365, "dur":40295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603421665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603421673, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603422873, "dur":56333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603479212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603479219, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603480864, "dur":44763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603525633, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603525644, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603527058, "dur":104307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603631370, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603631380, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603633235, "dur":45191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603678432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603678440, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603679967, "dur":27883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603707855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603707863, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603709291, "dur":33934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603743230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603743239, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603745581, "dur":155726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603901313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457603901321, "dur":3946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457603905316, "dur":119616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Finished Build/robotron_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457604024935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1665457604024940, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Finished Build/robotron_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1665457604026683, "dur":204806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665457604235335, "dur":1610, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1665457604270511, "dur": 763, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665457604269783, "dur": 1514, "ph": "X", "name": "Write chrome-trace events", "args": {} },
